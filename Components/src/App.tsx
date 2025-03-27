@@ -1,8 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import FileExproler from './TreeView/FileExproler'
+import FileExproler from './FileExproler/FileExproler'
 
 function App() {
  
