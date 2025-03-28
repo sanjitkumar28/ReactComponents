@@ -1,5 +1,8 @@
 import { useState } from "react";
 
+// change it to pass default Color 
+// why we have not use JSON.stringfy or JSON.parse 
+
 const useTheme = ()=>{
     const [theme,setTheme] = useState('white');
     localStorage.setItem("theme",theme);
