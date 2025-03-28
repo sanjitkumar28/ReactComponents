@@ -1,14 +1,16 @@
 
 import './App.css'
 import FileExproler from './FileExproler/FileExproler'
+import LightAndDarkMode from './LightAndDarkMode/LightAndDarkMode'
 
 function App() {
  
 
   return (
-    <>
-      <FileExproler/>
-    </>
+    <div>
+      {/* <FileExproler/> */}
+      <LightAndDarkMode/>
+    </div>
   )
 }
 
