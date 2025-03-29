@@ -1,5 +1,6 @@
 
 import './App.css'
+import CustomModal from './CustomModal/CustomModal'
 import FileExproler from './FileExproler/FileExproler'
 import LightAndDarkMode from './LightAndDarkMode/LightAndDarkMode'
 import Tabs from './Tabs/Tabs'
@@ -11,7 +12,8 @@ function App() {
     <div>
       {/* <FileExproler/> */}
       {/* <LightAndDarkMode/> */}
-      <Tabs/>
+      {/* <Tabs/> */}
+      <CustomModal/>
     </div>
   )
 }
