@@ -20,17 +20,16 @@ const Tabs = () => {
   ];
   const [tabIndex, setTabIndex] = useState(0);
   const changeTabIndex = (event: any) => {
-    console.log("event", event);
     setTabIndex(event);
   };
   return (
     <>
     <div className="tab-container">
-      {tabs.map((tab) => {
+      {tabs.map((tab,index) => {
         return (
           <>
             <div
-              className="tab"
+              className={tabIndex===index ? 'active-tab':'tab'}
               key={tab.index}
               onClick={() => changeTabIndex(tab.index)}
             >
