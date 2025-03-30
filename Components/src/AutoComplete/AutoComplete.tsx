@@ -7,10 +7,9 @@ const AutoComplete=()=>{
     const [result,setResult]=useState([]);
     const [showResults,setShowResults] = useState(false);
     const [cacheResult,setCacheResult]=useState({})
-    console.log("cacheResult",cacheResult);
+
 
     const fetchData=async ()=>{
-    console.log("cache[input",cacheResult[input])
     if(cacheResult[input]){
         console.log("cache");
         return cacheResult[input];
