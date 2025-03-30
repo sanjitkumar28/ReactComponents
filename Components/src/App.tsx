@@ -7,6 +7,7 @@ import FileExproler from './FileExproler/FileExproler'
 import GithubProfileFinder from './GithubProfileFinder/GithubProfileFinder'
 import LightAndDarkMode from './LightAndDarkMode/LightAndDarkMode'
 import Tabs from './Tabs/Tabs'
+import TicTacToe from './TicTacToe/TicTacToe'
 
 function App() {
  
@@ -18,7 +19,8 @@ function App() {
       {/* <Tabs/> */}
       {/* <CustomModalTest/> */}
       {/* <GithubProfileFinder/> */}
-      <AutoComplete/>
+      {/* <AutoComplete/> */}
+      <TicTacToe/>
     </div>
   )
 }
