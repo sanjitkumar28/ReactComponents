@@ -36,10 +36,9 @@ const TicTacToe = () => {
 
   useEffect(()=>{
     const result=checkWinner();
-    console.log("result",result);
-     if(checkWinner()){
+     if(result){
         console.log("here");
-            setResult(checkWinner());
+            setResult(result);
             setStartButton(true);
             setXturn(true);
      }
@@ -79,7 +78,11 @@ const TicTacToe = () => {
       </div>
       <div className='tic-tac-toe-container'>
         {
-            startButton ?  <div><button onClick={()=>setStartButton(false)}>Start Game</button></div> : <h4>{Xturn?"X Chance to Play":"O Chance to Play"}</h4>
+            startButton ?  <div><button onClick={()=>{
+                setStartButton(false)
+                setSquare(Array(9).fill(''))
+                setResult('');
+            }}>Start Game</button></div> : <h4>{Xturn?"X Chance to Play":"O Chance to Play"}</h4>
         }
       </div>
     </div>
