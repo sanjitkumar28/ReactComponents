@@ -1,5 +1,6 @@
 
 import './App.css'
+import AutoComplete from './AutoComplete/AutoComplete'
 import CustomModal from './CustomModal/CustomModal'
 import CustomModalTest from './CustomModal/CustomModalTest'
 import FileExproler from './FileExproler/FileExproler'
@@ -16,7 +17,8 @@ function App() {
       {/* <LightAndDarkMode/> */}
       {/* <Tabs/> */}
       {/* <CustomModalTest/> */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
+      <AutoComplete/>
     </div>
   )
 }

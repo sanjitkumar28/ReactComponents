@@ -1,0 +1,17 @@
+.container{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dropdown-container{
+  width: 500px;
+  border: 1px solid black;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.dropdown-item:hover{
+background-color: lightgrey;
+}
