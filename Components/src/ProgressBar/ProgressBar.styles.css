@@ -1,0 +1,11 @@
+.progress-bar-outer-container{
+    width:500px;
+    height:20px;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.progress-bar-inner-container{
+ width: 50%;
+ background-color: green;
+ height: 20px;
+}

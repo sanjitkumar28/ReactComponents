@@ -8,6 +8,7 @@ import GithubProfileFinder from './GithubProfileFinder/GithubProfileFinder'
 import LightAndDarkMode from './LightAndDarkMode/LightAndDarkMode'
 import Tabs from './Tabs/Tabs'
 import TicTacToe from './TicTacToe/TicTacToe'
+import ProgressBar from './ProgressBar/ProgressBar'
 
 function App() {
  
@@ -20,7 +21,8 @@ function App() {
       {/* <CustomModalTest/> */}
       {/* <GithubProfileFinder/> */}
       {/* <AutoComplete/> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      <ProgressBar/>
     </div>
   )
 }
