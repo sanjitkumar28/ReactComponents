@@ -1,11 +1,12 @@
 .progress-bar-outer-container{
-    width:500px;
-    height:20px;
-    border-radius: 10%;
+    width: 100%;
+    height:30px;
+    border: 1px solid black;
+    border-radius:10px;
     overflow: hidden;
 }
 .progress-bar-inner-container{
- width: 50%;
- background-color: green;
- height: 20px;
+   height: 100%;
+   background-color: green;
+   width: 50%;
 }
