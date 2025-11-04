@@ -1,14 +1,36 @@
 import FileData from "./data.json";
 import { ListType } from "./type";
+import "./FileExplore.css";
+import { useState } from "react";
 
 const FileExplore = () => {
   const FileView = ({ data }: { data: ListType[] }) => {
+    const [expanded, setExpanded] = useState({});
     return (
       <>
         {data.map((node) => {
           return (
-            <div>
-              <span>{node.label}</span>
+            <div className="container">
+              <div>
+                {node.isFolder && !expanded[node.label] ? (
+                  <span
+                    onClick={() => {
+                      setExpanded((prev) => {
+                        return {
+                          ...prev,
+                          [node.label]: !prev[node.label],
+                        };
+                      });
+                    }}
+                  >
+                    +
+                  </span>
+                ) : node.isFolder ? (
+                  <span>-</span>
+                ) : null}
+
+                {expanded[node.label] || node.isFolder && <span>{node.label}</span>}
+              </div>
               {node?.children && <FileView data={node.children} />}
             </div>
           );

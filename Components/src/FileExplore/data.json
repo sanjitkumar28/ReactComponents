@@ -4,7 +4,7 @@
     "type": "route",
     "label": "Home",
     "to": "/",
-    "isFolder": false
+    "isFolder": true
   },
   {
     "id": "2",
