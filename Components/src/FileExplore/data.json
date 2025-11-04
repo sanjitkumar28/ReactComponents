@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "type": "route",
+    "label": "Home",
+    "to": "/",
+    "isFolder": false
+  },
+  {
+    "id": "2",
+    "type": "group",
+    "label": "Profile",
+    "to": "/profile",
+    "isFolder": true,
+    "children": [
+      {
+        "id": "3",
+        "type": "group",
+        "label": "Details",
+        "to": "details",
+        "isFolder": true,
+        "children": [
+          {
+            "id": "4",
+            "type": "group",
+            "label": "Location",
+            "to": "location",
+            "isFolder": true,
+            "children": [
+              {
+                "id": "5",
+                "type": "route",
+                "label": "City",
+                "to": "city",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "type": "group",
+    "label": "Settings",
+    "to": "/settings",
+    "isFolder": true,
+    "children": [
+      {
+        "id": "7",
+        "type": "route",
+        "label": "Account",
+        "to": "account",
+        "isFolder": false
+      },
+      {
+        "id": "8",
+        "type": "group",
+        "label": "Security",
+        "to": "security",
+        "isFolder": true,
+        "children": [
+          {
+            "id": "9",
+            "type": "route",
+            "label": "Login",
+            "to": "login",
+            "isFolder": false
+          },
+          {
+            "id": "10",
+            "type": "group",
+            "label": "Register",
+            "to": "register",
+            "isFolder": true,
+            "children": [
+              {
+                "id": "11",
+                "type": "route",
+                "label": "Random data",
+                "to": "",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

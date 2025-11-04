@@ -9,6 +9,7 @@ import LightAndDarkMode from './LightAndDarkMode/LightAndDarkMode'
 import Tabs from './Tabs/Tabs'
 import TicTacToe from './TicTacToe/TicTacToe'
 import ProgressBar from './ProgressBar/ProgressBar'
+import FileExplore from './FileExplore/FileExplore'
 
 function App() {
  
@@ -22,7 +23,8 @@ function App() {
       {/* <GithubProfileFinder/> */}
       {/* <AutoComplete/> */}
       {/* <TicTacToe/> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      <FileExplore/>
     </div>
   )
 }
