@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    margin-bottom: 5px;
+    width: 500px;
+}
+
+.content{
+    
+    background-color: whitesmoke;
+   padding: 5px;
+}

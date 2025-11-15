@@ -26,12 +26,19 @@ const FileExplore = () => {
                     +
                   </span>
                 ) : node.isFolder ? (
-                  <span>-</span>
+                  <span onClick={() => {
+                      setExpanded((prev) => {
+                        return {
+                          ...prev,
+                          [node.label]: !prev[node.label],
+                        };
+                      });
+                    }}>-</span>
                 ) : null}
 
-                {expanded[node.label] || node.isFolder && <span>{node.label}</span>}
+                { <span>{node.label}</span>}
               </div>
-              {node?.children && <FileView data={node.children} />}
+              {node?.children && expanded[node.label] && <FileView data={node.children} />}
             </div>
           );
         })}

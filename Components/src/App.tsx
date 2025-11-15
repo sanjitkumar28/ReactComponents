@@ -10,6 +10,7 @@ import Tabs from './Tabs/Tabs'
 import TicTacToe from './TicTacToe/TicTacToe'
 import ProgressBar from './ProgressBar/ProgressBar'
 import FileExplore from './FileExplore/FileExplore'
+import Accordion from './Accordion/Accordion'
 
 function App() {
  
@@ -24,7 +25,8 @@ function App() {
       {/* <AutoComplete/> */}
       {/* <TicTacToe/> */}
       {/* <ProgressBar/> */}
-      <FileExplore/>
+      {/* <FileExplore/> */}
+      <Accordion/>
     </div>
   )
 }
