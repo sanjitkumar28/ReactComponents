@@ -11,6 +11,7 @@ import TicTacToe from './TicTacToe/TicTacToe'
 import ProgressBar from './ProgressBar/ProgressBar'
 import FileExplore from './FileExplore/FileExplore'
 import Accordion from './Accordion/Accordion'
+import Todo from './Todo/Todo'
 
 function App() {
  
@@ -26,7 +27,8 @@ function App() {
       {/* <TicTacToe/> */}
       {/* <ProgressBar/> */}
       {/* <FileExplore/> */}
-      <Accordion/>
+      {/* <Accordion/> */}
+      <Todo/>
     </div>
   )
 }
