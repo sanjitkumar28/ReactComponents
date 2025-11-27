@@ -12,6 +12,7 @@ import ProgressBar from './ProgressBar/ProgressBar'
 import FileExplore from './FileExplore/FileExplore'
 import Accordion from './Accordion/Accordion'
 import Todo from './Todo/Todo'
+import ChipsInput from './ChipsInput/ChipsInput'
 
 function App() {
  
@@ -28,7 +29,8 @@ function App() {
       {/* <ProgressBar/> */}
       {/* <FileExplore/> */}
       {/* <Accordion/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <ChipsInput/>
     </div>
   )
 }
