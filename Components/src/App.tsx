@@ -13,6 +13,7 @@ import FileExplore from './FileExplore/FileExplore'
 import Accordion from './Accordion/Accordion'
 import Todo from './Todo/Todo'
 import ChipsInput from './ChipsInput/ChipsInput'
+import OTP from './OTP/OTP'
 
 function App() {
  
@@ -30,7 +31,8 @@ function App() {
       {/* <FileExplore/> */}
       {/* <Accordion/> */}
       {/* <Todo/> */}
-      <ChipsInput/>
+      {/* <ChipsInput/> */}
+      <OTP noOfDigit={5}/>
     </div>
   )
 }
