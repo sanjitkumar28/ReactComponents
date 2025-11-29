@@ -28,11 +28,12 @@ function App() {
       {/* <AutoComplete/> */}
       {/* <TicTacToe/> */}
       {/* <ProgressBar/> */}
+      <ProgressBar width={50}/>
       {/* <FileExplore/> */}
       {/* <Accordion/> */}
       {/* <Todo/> */}
       {/* <ChipsInput/> */}
-      <OTP noOfDigit={5}/>
+      {/* <OTP noOfDigit={5}/> */}
     </div>
   )
 }
