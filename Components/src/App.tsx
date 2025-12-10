@@ -14,6 +14,7 @@ import Accordion from './Accordion/Accordion'
 import Todo from './Todo/Todo'
 import ChipsInput from './ChipsInput/ChipsInput'
 import OTP from './OTP/OTP'
+import Pagination from './Pagination/Pagination'
 
 function App() {
  
@@ -28,12 +29,13 @@ function App() {
       {/* <AutoComplete/> */}
       {/* <TicTacToe/> */}
       {/* <ProgressBar/> */}
-      <ProgressBar width={50}/>
+      {/* <ProgressBar width={50}/> */}
       {/* <FileExplore/> */}
       {/* <Accordion/> */}
       {/* <Todo/> */}
       {/* <ChipsInput/> */}
       {/* <OTP noOfDigit={5}/> */}
+      <Pagination/>
     </div>
   )
 }

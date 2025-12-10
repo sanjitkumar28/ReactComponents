@@ -1,0 +1,14 @@
+.product-card{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
