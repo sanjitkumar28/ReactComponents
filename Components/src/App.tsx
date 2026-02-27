@@ -15,6 +15,10 @@ import Todo from './Todo/Todo'
 import ChipsInput from './ChipsInput/ChipsInput'
 import OTP from './OTP/OTP'
 import Pagination from './Pagination/Pagination'
+import TabForm from './TabformComponent/TabForm'
+import CountDownTimer from './CountDownTimer/CountDownTimer'
+import Stopwatch from './Stopwatch/Stopwatch'
+import CountDownTimer1 from './CountDownTimer/CountDownTimer1'
 
 function App() {
  
@@ -35,7 +39,10 @@ function App() {
       {/* <Todo/> */}
       {/* <ChipsInput/> */}
       {/* <OTP noOfDigit={5}/> */}
-      <Pagination/>
+      {/* <Pagination/> */}
+      {/* <TabForm/> */}
+      <CountDownTimer1/>
+      {/* <Stopwatch/> */}
     </div>
   )
 }
